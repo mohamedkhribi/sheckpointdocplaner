@@ -1,0 +1,105 @@
+.navtools {
+    background-color: #ffff;
+    padding: 10px;
+    text-align: right;
+  }
+
+  .navtools a {
+    color: #8b8989;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .navtools a:hover {
+    color: #4ac3af; /* Couleur verte clair */
+  }
+  a img {
+    display: block;
+    max-width: 30%; /* Pour assurer que l'image ne dépasse pas la largeur du conteneur parent */
+    height: auto; 
+    
+    
+
+  }
+ #headerlogo{
+   
+    width: 70px; 
+    height: 70px; 
+    
+    
+    
+    justify-content: center;
+    
+ }
+ #ptit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ #headerp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4ac3af;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+
+ }
+ .twoparagraphs {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.p1, .p2 {
+  width: 50%;
+  padding: 20px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  box-sizing: border-box; 
+  font-family: Helvetica;
+}
+.forsection .for1,
+.forsection .for2,
+.forsection .for3 {
+  background-color: #00b39b;
+  display: inline-block;
+  width: 20%;
+  height: 50%; /* Adjust the width as needed */
+  margin: 10px; * Add margin for spacing */
+  padding: 10px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding and border in total width/height */
+  border-radius: 8px;
+}
+
+#main1,
+#main2,
+#main3,
+#select1,
+#select2,
+#select3,
+#section3title {
+  display: block;
+}
+.forsection {
+  text-align: center; /* Center-align the child elements */
+}
+
+.forsection .for2{
+  
+  background-color: #12659c;
+  color: aliceblue;
+}
+.forsection .for3 {
+  
+  background-color: hsl(202, 24%, 18%);
+  color: aliceblue;
+}
+.forsection .for1{
+  color: aliceblue;
+}
+
